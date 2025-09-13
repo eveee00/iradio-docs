@@ -10,8 +10,3 @@ url: https://docs.eveee00.xyz
 color_scheme: dark
 
 favicon_ico: "/assets/favicon.ico"
-
-callouts:
-  warning:
-    title: Warning
-    color: red
