@@ -7,7 +7,7 @@ nav_order: 1
 
 ## UART Boot log
 
-**I removed a bunch of whitespace from this page to make it smaller, [here](https://github.com/eveee00/magic-iradio/blob/main/boot.log) is the unmodified log**
+**I removed a bunch of whitespace from this page to make it smaller, [here](https://github.com/eveee00/magic-iradio/blob/main/tcm/uart.log) is the unmodified log**
 
 ### Things to note:
 - The bootloader seems to have this boot order:
