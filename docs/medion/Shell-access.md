@@ -87,6 +87,7 @@ bin      etc      mnt      root     tmp
 ```
 
 - (OPTIONAL) Kill telnetd
+
 You can kill telnetd if you only want ssh
 
 ```sh
