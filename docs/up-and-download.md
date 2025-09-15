@@ -1,12 +1,12 @@
 ---
-title: (MD) File exchange
+title: File exchange
 layout: default
-parent: (MD) Files
-nav_order: 2
+nav_order: 4
 ---
+You can get files from and to the radio by using FTP.
 
 ## Getting files from the radio
-You can get files from and to the radio by using FTP. In this example, I am uploading a file from /UIData to my server:
+In this example, I am uploading a file from /UIData to my server:
 
 ```
 # ftpput -v -u USERNAME -p PASSWORD FTPSERVER a /UIData/connection_1.bin 
@@ -23,7 +23,9 @@ ftpput: cmd QUIT (null)
 ```
 
 ## Uploading files to the radio
+
 *Do note that any uploaded files will get wiped upon reboot. This is because the filesystem is a CPIO image that is mounted to RAM*
+
 *This doesn't apply to the /flash directory, since a JFFS2 FS is mounted there.*
 
 ```
